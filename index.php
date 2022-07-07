@@ -20,9 +20,26 @@
 			$url = $_GET[ 'url' ];
 			$host = parse_url( $_GET[ 'url' ], PHP_URL_HOST );
 
+			if( $host_without_subdomain ) {
+
+				$host = explode( '.', $host );
+				$host = array_reverse( $host );
+				$host = $host[ 1 ] . '.' . $host[ 0 ];
+	
+			} else {}
+
 		} else {
 
 			$host = $_GET[ 'host' ];
+
+			if( $host_without_subdomain ) {
+
+				$host = explode( '.', $host );
+				$host = array_reverse( $host );
+				$host = $host[ 1 ] . '.' . $host[ 0 ];
+	
+			} else {}
+
 			$url = 'https://' . $host;
 
 		}
@@ -63,7 +80,11 @@
 
 				$cookie_pair = explode( '=', $line );
 
-				$cookies[ $cookie_pair[ 0 ] ] = $cookie_pair[ 1 ];
+				if( strlen( $cookie_pair[ 0 ] ) > 0 ) {
+
+					$cookies[ $cookie_pair[ 0 ] ] = $cookie_pair[ 1 ];
+
+				} else {}
 
 			}
 
