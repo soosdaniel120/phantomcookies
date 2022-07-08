@@ -94,6 +94,14 @@
 
 		}
 
+		json_decode( $json );
+
+		if( json_last_error()===JSON_ERROR_NONE ) {
+
+			header( 'Content-type: application/json' );
+
+		} else {}
+
 		print $json;
 
 	} else {}
