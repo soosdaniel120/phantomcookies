@@ -11,6 +11,6 @@ if( system . args . length > 1 ) {
 				console . log( cookies[ i ] . name + '=' + cookies[ i ] . value );
 			}
 			phantom . exit();
-		}, 300 );
+		}, 600 );
 	} );
 } else {}
