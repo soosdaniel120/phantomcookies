@@ -30,5 +30,5 @@ Second example:
 http://localhost/phantomcookies/?host=example.com
 ```
 ## Collaborators
-Code: [soosdaniel120](https://github.com/soosdaniel120) g
+Code: [soosdaniel120](https://github.com/soosdaniel120)<br />
 Logo: [chipplays](https://www.fiverr.com/chipplays)
