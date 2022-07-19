@@ -29,5 +29,6 @@ Second example:
 ```
 http://localhost/phantomcookies/?host=example.com
 ```
+Output: cookies (JSON).
 ## Logo
 [chipplays](https://www.fiverr.com/chipplays)
