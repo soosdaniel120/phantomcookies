@@ -7,6 +7,14 @@ wget -O /usr/local/bin/phantomjs.tar.bz2 https://bitbucket.org/ariya/phantomjs/d
 tar -xf /usr/local/bin/phantomjs.tar.bz2 -C /usr/local/bin
 rm -rf /usr/local/bin/phantomjs.tar.bz2
 mv /usr/local/bin/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs # 64-bit
-rm -rf /usr/local/bin/phantomjs-2.1.1-linux-x86_64
+# mv /usr/local/bin/phantomjs-2.1.1-linux-i686/bin/phantomjs /usr/local/bin/phantomjs # 32-bit
+rm -rf /usr/local/bin/phantomjs-2.1.1-linux-x86_64 # 64-bit
+# rm -rf /usr/local/bin/phantomjs-2.1.1-linux-i686 # 32-bit
 ```
 ## Install
+```
+wget -O /tmp/phantomcookies.tar.gz https://github.com/soosdaniel120/phantomcookies/archive/refs/tags/v0.1.tar.gz
+tar -xf /tmp/phantomcookies.tar.gz -C /tmp
+rm -rf /tmp/phantomcookies.tar.gz
+mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
+```
