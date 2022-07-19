@@ -20,7 +20,7 @@ tar -xf /tmp/phantomcookies.tar.gz -C /tmp
 rm -rf /tmp/phantomcookies.tar.gz
 mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
 mkdir /var/www/phantomcookies/cookies
-chmod 0777 /var/www/phantomcookies/cookies
+chmod 0777 /var/www/phantomcookies
 ```
 ## Usage
 First example:
