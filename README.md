@@ -30,6 +30,6 @@ Second example:
 ```
 http://localhost/phantomcookies/?host=example.com
 ```
-Output: cookies (JSON).
+Output: JSON (cookies).
 ## Logo
 [chipplays](https://www.fiverr.com/chipplays)
