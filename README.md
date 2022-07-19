@@ -11,7 +11,7 @@ mv /tmp/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs # 64
 # mv /tmp/phantomjs-2.1.1-linux-i686/bin/phantomjs /usr/local/bin/phantomjs # 32-bit
 rm -rf /tmp/phantomjs-2.1.1-linux-x86_64 # 64-bit
 # rm -rf /tmp/phantomjs-2.1.1-linux-i686 # 32-bit
-chmod?
+chmod 0777 /usr/local/bin/phantomjs
 ```
 ## Install
 ```
@@ -19,6 +19,8 @@ wget -O /tmp/phantomcookies.tar.gz https://github.com/soosdaniel120/phantomcooki
 tar -xf /tmp/phantomcookies.tar.gz -C /tmp
 rm -rf /tmp/phantomcookies.tar.gz
 mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
+mkdir /var/www/phantomcookies/cookies
+chmod 0777 /var/www/phantomcookies/cookies
 ```
 ## Usage
 First example:
