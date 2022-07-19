@@ -11,7 +11,6 @@ mv /tmp/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs # 64
 # mv /tmp/phantomjs-2.1.1-linux-i686/bin/phantomjs /usr/local/bin/phantomjs # 32-bit
 rm -rf /tmp/phantomjs-2.1.1-linux-x86_64 # 64-bit
 # rm -rf /tmp/phantomjs-2.1.1-linux-i686 # 32-bit
-chmod 0777 /usr/local/bin/phantomjs
 ```
 ## Install
 ```
