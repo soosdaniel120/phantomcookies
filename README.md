@@ -21,11 +21,11 @@ rm -rf /tmp/phantomcookies.tar.gz
 mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
 ```
 ## Usage
-### First Example
+First example:
 ```
 http://localhost/phantomcookies/?url=https://example.com
 ```
-### Second Example
+Second example:
 ```
 http://localhost/phantomcookies/?host=example.com
 ```
