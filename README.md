@@ -1,3 +1,4 @@
+![Logo](assets/pc-logo-16x16.png)
 # Phantom Cookies
 ## Requirements
 ### PhantomJS
