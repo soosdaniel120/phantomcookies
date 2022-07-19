@@ -1,5 +1,4 @@
-![Logo](assets/pc-logo-16x16.png)
-# Phantom Cookies
+# ![Logo](assets/pc-logo-16x16.png) Phantom Cookies
 Daily new cookies with Phantom Cookies.
 ## Requirements
 ### PhantomJS
