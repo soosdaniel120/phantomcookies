@@ -1,5 +1,7 @@
 <?php
 
+	// v0.2
+
 	require __DIR__ . DIRECTORY_SEPARATOR . 'pc-config.php';
 
 	if( php_sapi_name()== "cli" ) {
