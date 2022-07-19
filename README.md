@@ -1,5 +1,6 @@
 ![Logo](assets/pc-logo-16x16.png)
 # Phantom Cookies
+Daily new cookies with Phantom Cookies.
 ## Requirements
 ### PhantomJS
 ```
@@ -18,4 +19,13 @@ wget -O /tmp/phantomcookies.tar.gz https://github.com/soosdaniel120/phantomcooki
 tar -xf /tmp/phantomcookies.tar.gz -C /tmp
 rm -rf /tmp/phantomcookies.tar.gz
 mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
+```
+## Usage
+### First Example
+```
+http://localhost/phantomcookies/?url=https://example.com
+```
+### Second Example
+```
+http://localhost/phantomcookies/?host=example.com
 ```
