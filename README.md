@@ -14,10 +14,10 @@ rm -rf /tmp/phantomjs-2.1.1-linux-x86_64 # 64-bit
 ```
 ## Install
 ```
-wget -O /tmp/phantomcookies.tar.gz https://github.com/soosdaniel120/phantomcookies/archive/refs/tags/v0.1.tar.gz
+wget -O /tmp/phantomcookies.tar.gz https://github.com/soosdaniel120/phantomcookies/archive/refs/tags/v0.2.tar.gz
 tar -xf /tmp/phantomcookies.tar.gz -C /tmp
 rm -rf /tmp/phantomcookies.tar.gz
-mv /tmp/phantomcookies-0.1 /var/www/phantomcookies
+mv /tmp/phantomcookies-0.2 /var/www/phantomcookies
 mkdir /var/www/phantomcookies/cookies
 chmod 0777 /var/www/phantomcookies
 ```
